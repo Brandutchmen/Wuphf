@@ -61,29 +61,6 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
-
-            /* Split the screen in half */
-            .split {
-                height: 100%;
-                width: 50%;
-                position: fixed;
-                z-index: 1;
-                top: 0;
-                overflow-x: hidden;
-                padding-top: 20px;
-            }
-
-            /* Control the left side */
-            .left {
-                left: 0;
-                background-image: url("woof.jpg");
-            }
-
-            /* Control the right side */
-            .right {
-                right: 0;
-                background-color: red;
-            }
         </style>
     </head>
     <body>
@@ -105,21 +82,6 @@
             <div class="content">
                 <div class="title m-b-md">
                     Wuphf
-                </div>
-                <div class="split left">
-                    <div class="centered">
-                        <img src="img_avatar2.png" alt="Avatar woman">
-                        <h2>Jane Flex</h2>
-                        <p>Some text.</p>
-                    </div>
-                </div>
-
-                <div class="split right">
-                    <div class="centered">
-                        <img src="img_avatar.png" alt="Avatar man">
-                        <h2>John Doe</h2>
-                        <p>Some text here too.</p>
-                    </div>
                 </div>
             </div>
         </div>
